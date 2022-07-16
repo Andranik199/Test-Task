@@ -1,0 +1,27 @@
+$text-center: center;
+
+.characterInformation {
+  .characterName {
+    text-align: $text-center;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .category {
+    text-align: $text-center;
+  }
+
+  .filmimage {
+    display: inline-flex !important;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 150px;
+      margin: 15px 0 0 15px;
+    }
+  }
+
+}

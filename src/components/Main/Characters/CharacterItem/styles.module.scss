@@ -1,0 +1,18 @@
+.characterItem {
+    flex: 1 0 20%;
+    margin: 20px;
+    img {
+        max-height: 300px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    p {
+        display: flex;
+        padding-right: 1rem;
+        span {
+            display: block;
+            height: 20px;
+            width: 20px
+        }
+    }
+}
